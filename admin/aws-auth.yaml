@@ -9,8 +9,12 @@ data:
   mapUsers: |
     - groups:
       - roboshop-pod-reader
-      userarn: arn:aws:iam::444455556666:user/pk
+      userarn: arn:aws:iam::600627356570:user/pk
       username: pk
+    - groups:
+      - roboshop-admin
+      userarn: arn:aws:iam::600627356570:user/pkadmin
+      username: pkadmin
 kind: ConfigMap
 metadata:
   name: aws-auth
