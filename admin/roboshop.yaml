@@ -47,7 +47,7 @@ metadata:
   name: cluster-reader-roboshop
 subjects:
 - kind: User
-  name: ramesh # Name is case sensitive
+  name: pk # Name is case sensitive
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: ClusterRole
