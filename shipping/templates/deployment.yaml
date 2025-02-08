@@ -30,8 +30,8 @@ spec:
             cpu: "150m"
             memory: "256Mi"
           limits:
-            cpu: "300m"
-            memory: "512Mi"
+            cpu: "350m"
+            memory: "515Mi"
         envFrom:
         - configMapRef:
             name: shipping
